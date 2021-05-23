@@ -1,0 +1,380 @@
+.gl{
+    position: relative;
+    width: 100%;
+    height: 800px;
+
+    background: #FFFFFF;
+}
+
+.gl_fon{
+    position: relative;
+    width: 100%;
+    height: 800px;
+
+
+    background: url(img/фон1.jpg);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+.gl_fon:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+}
+
+.gl_text{
+    position: absolute;
+    width: 1206px;
+    height: 340px;
+    left: 75px;
+    top: 45%;
+
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 85%;
+
+    /* or 85px */
+
+    color: #FFFFFF;
+}
+
+.gl_body{
+    position: relative;
+    width: 100%;
+    height: 3824px;
+
+
+    background: #FFFFFF;
+}
+
+.gl_body_text{
+    position: absolute;
+    width: 1327px;
+    height: 108px;
+    left: 10%;
+    top: 82px;
+    text-shadow: 1px 1px 2px black, 0 0 0em red;
+
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 81px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+
+.gl_body_blok{
+    position: absolute;
+    width: 100%;
+    height: 802px;
+    left: 0px;
+    top: 0px;
+
+    background: radial-gradient(50% 50% at 50% 50%, #3EA5BE 0%, #276575 100%);
+}
+
+.gl_icon_coin{
+    position: absolute;
+    /*width: 245px;
+    height: 245px;*/
+    left: 10%;
+    top: 220px;
+
+
+    border-radius: 10px;
+}
+
+.gl_icon_text_coin{
+    position: absolute;
+    width: 260px;
+    height: 29px;
+    left: 10%;
+    top: 467px;
+    text-shadow: 1px 1px 2px black, 0 0 0em red;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.gl_icon_Family{
+    position: absolute;
+    width: 270px;
+    height: 250px;
+    left: 21%;
+    top: 485px;
+
+    border-radius: 10px;
+}
+.gl_icon_text_Family{
+    position: absolute;
+    width: 329px;
+    height: 29px;
+    left: 20%;
+    top: 734px;
+    text-shadow: 1px 1px 2px black, 0 0 0em red;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.gl_icon_Hands{
+    position: absolute;
+    width: 180px;
+    height: 250px;
+    left: 45%;
+    top: 220px;
+
+    border-radius: 10px;
+}
+
+.gl_icon_Hands1{
+    position: absolute;
+    width: 128px;
+    height: 100px;
+    left: 45%;
+    top: 370px;
+}
+
+.gl_icon_text_Hands{
+    position: absolute;
+    width: 221px;
+    height: 58px;
+    left: 44%;
+    top: 485px;
+    text-shadow: 1px 1px 2px black, 0 0 0em red;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.gl_icon_Hands2{
+    position: absolute;
+    width: 160px;
+    height: 250px;
+    left: 63%;
+    top: 482px;
+
+    border-radius: 10px;
+}
+
+.gl_icon_text_Hands2{
+    position: absolute;
+    width: 285px;
+    height: 29px;
+    left: 59%;
+    top: 734px;
+    text-shadow: 1px 1px 2px black, 0 0 0em red;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.gl_icon_Humaaans{
+    position: absolute;
+    width: 210px;
+    height: 250px;
+    left: 76%;
+    top: 211px;
+
+    border-radius: 10px;
+}
+
+.gl_icon_text_Humaaans{
+    position: absolute;
+    width: 324px;
+    height: 58px;
+    left: 73%;
+    top: 465px;
+    text-shadow: 1px 1px 2px black, 0 0 0em red;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+/*------------------*/
+.service{
+    position: absolute;
+    width: 894px;
+    height: 108px;
+    left: 287px;
+    top: 25%;
+
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 81px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.service_icon{
+    position: absolute;
+    width: 400px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    /*background: url(img/food.png);*/
+    border-radius: 30px;
+}
+
+.service_card_food{
+    position: absolute;
+    left: 219px;
+    right: 219px;
+    top: 30%;
+    bottom: 2052px;
+}
+
+.service_heading_food{
+    position: absolute;
+    width: 527px;
+    height: 188px;
+    left: 435px;
+    top: 84px;
+}
+
+.service_food_header{
+    position: absolute;
+    width: 527px;
+    height: 46px;
+    left: 10%;
+    top: 5%;
+
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46px;
+
+    /* identical to box height, or 115% */
+
+    /* Heading text */
+    color: #081F32;
+}
+
+.service_food_text{
+    position: absolute;
+    width: 527px;
+    height: 81px;
+    left: 10%;
+    top: 50%;
+
+    font-family: Geometria;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+
+    /* or 112% */
+
+    /* Body text */
+    color: #374A59;
+}
+
+.service_food_next{
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 65%;
+    bottom: 43px;
+    top: 250px;
+
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    /* identical to box height */
+    text-align: right;
+
+    /* Cards 2 / main */
+    color: #007AE9;
+}
+
+.service_card_concert{
+    position: absolute;
+    left: 219px;
+    right: 219px;
+    top: 45%;
+    bottom: 1588px;
+
+    /* Main Shadow */
+    filter: drop-shadow(0px 24px 64px rgba(0, 0, 0, 0.04));
+}
+
+.service_card_museums{
+    position: absolute;
+    left: 219px;
+    right: 219px;
+    top: 60%;
+    bottom: 1124px;
+}
+
+.service_card_rental_services{
+    position: absolute;
+    left: 219px;
+    right: 219px;
+    top: 75%;
+    bottom: 654px;
+}
+
+.service_card_public_transport{
+    position: absolute;
+    left: 219px;
+    right: 219px;
+    top: 90%;
+    bottom: 184px;
+}

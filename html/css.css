@@ -1,0 +1,431 @@
+body {
+	height: 1000px;
+	/*background-image: url("https://avatars.mds.yandex.net/get-zen_doc/2442582/pub_5ffc037afe4e686f6a5ec5d8_5ffc0409af142f0b1792b0a6/scale_1200");
+
+	/* Half height */
+
+
+	/* Center and scale the image nicely */
+/*	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(255, 255, 255, 1);*/
+}
+
+
+
+.hh{
+	font-family: segoe ui;
+	font-size: 25px;
+}
+
+.radio{
+	padding-left: 30%;
+	margin-top: -12.5%;
+}
+
+.send{
+	margin-left: 30%;
+	/*margin-top: -15%;*/
+}
+
+.elips{
+	position: absolute;
+	width: 360px;
+	height: 360px;
+	left: 152px;
+	top: 137px;
+	background: #E5E5E5;
+	border-radius: 200px;
+}
+
+.icon {
+	position: absolute;
+	left: 23%;
+	right: 71.42%;
+	top: 15%;
+	bottom: 59.96%;
+}
+
+.fio_profil
+{
+	position: absolute;
+	width: 101px;
+	height: 45px;
+	left: 152px;
+	top: 606px;
+
+	font-family: Geometria;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 45px;
+
+	color: #000000;
+}
+
+.fio_profil_F{
+	position: absolute;
+	width: 90px;
+	height: 30px;
+	left: 359px;
+	top: 607px;
+
+	font-family: Geometria;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #000000;
+}
+
+.fio_profil_I{
+	position: absolute;
+	width: 62px;
+	height: 30px;
+	left: 360px;
+	top: 637px;
+
+	font-family: Geometria;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #000000;
+
+
+
+}
+
+.fio_profil_O{
+	position: absolute;
+	width: 118px;
+	height: 30px;
+	left: 359px;
+	top: 670px;
+
+	font-family: Geometria;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #000000;
+
+
+}
+
+.tel_profil{
+	position: absolute;
+	width: 166px;
+	height: 45px;
+	left: 152px;
+	top: 784px;
+
+	font-family: Geometria;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 45px;
+
+	color: #000000;
+
+}
+
+.tel_profil_nom{
+
+	position: absolute;
+	width: 203px;
+	height: 30px;
+	left: 360px;
+	top: 792px;
+
+	font-family: Geometria;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #000000;
+}
+
+.line_1_profil{
+	position: absolute;
+	width: 833px;
+	height: 0px;
+	left: 300px;
+	top: 500px;
+
+	border: 1px solid #000000;
+	background: #000000;
+	transform: rotate(90deg);
+}
+
+.schet_profil{
+	position: absolute;
+	width: 237px;
+	height: 45px;
+	left: 788px;
+	top: 201px;
+
+	font-family: Geometria;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 45px;
+
+	color: #000000;
+}
+
+.schet_profil_nom{
+	position: absolute;
+	width: 283px;
+	height: 30px;
+	left: 1054px;
+	top: 208px;
+
+	font-family: Geometria;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #000000;
+
+}
+
+.balans_profil{
+	position: absolute;
+	width: 142px;
+	height: 45px;
+	left: 788px;
+	top: 305px;
+
+	font-family: Geometria;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 45px;
+
+	color: #000000;
+}
+
+.balans_profil_nom{
+	position: absolute;
+	width: 17px;
+	height: 30px;
+	left: 1054px;
+	top: 315px;
+
+	font-family: Geometria;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #000000;
+
+}
+
+.line_2_profil{
+	position: absolute;
+	width: 700px;
+	height: 0px;
+	left: 737px;
+	top: 451px;
+
+	background: #000000;
+	border: 1px solid #000000;
+}
+
+.adres_profil{
+	position: absolute;
+	width: 126px;
+	height: 33.08px;
+	left: 788px;
+	top: 545px;
+
+	font-family: Geometria;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 45px;
+
+	color: #000000;
+}
+
+.adres_profil_nom{
+	position: absolute;
+	width: 537px;
+	height: 44.1px;
+	left: 788px;
+	top: 601px;
+
+	font-family: Geometria;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #000000;
+}
+
+.verefikacia_profil{
+	position: absolute;
+	width: 602.57px;
+	height: 103px;
+	left: 756px;
+	top: 719px;
+
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 30px;
+}
+
+.verefikacia_profil_name{
+	position: absolute;
+	width: 410.48px;
+	height: 39px;
+	left: 70px;
+	top: 20px;
+
+	font-family: Geometria;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 45px;
+
+	color: #000000;
+}
+
+.gos_profil{
+
+	position: absolute;
+	width: 168.08px;
+	height: 86px;
+	left: 430px;
+	top: 10px;
+
+	background: url(госуслуги.jpg);
+	border-radius: 100px;
+}
+.dob{
+	position: absolute;
+	width: 894px;
+	height: 108px;
+	left: 377px;
+	top: 98px;
+
+	font-family: Geometria;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 81px;
+
+	color: #000000;
+}
+
+.elips_dob{
+	position: absolute;
+	width: 360px;
+	height: 360px;
+	left: 74px;
+	top: 277px;
+
+	border-radius: 200px;
+	background: #E5E5E5;
+}
+
+.icon_dob{
+	position: absolute;
+	left: 23%;
+	right: 76.84%;
+	top: 15%;
+	bottom: 46.42%;
+}
+
+.dob_foto{
+	position: absolute;
+	/*width: 181px;
+    height: 32px;*/
+	left: 180px;
+	top: 693px;
+
+	font-family: Geometria;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #000000;
+}
+
+.dob_dob{
+	position: absolute;
+	/*width: 301px;
+    height: 92px;*/
+	left: 40%;
+	top: 120%;
+
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 30px;
+
+
+	font-family: Geometria;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	/*line-height: 45px;*/
+}
+
+.line_1_dob{
+	position: absolute;
+	width: 750px;
+	height: 0px;
+	left: 200px;
+	top: 560px;
+
+	background: #000000;
+	border: 1px solid #000000;
+	transform: rotate(90deg);
+}
+
+.dob_name{
+	margin-left: 40%;
+	margin-top: 15%;
+
+
+	font-family: Geometria;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 45px;
+
+}
+.dob_name_name{
+	/*margin-top: 0%;*/
+	max-width: 50%;
+	margin-left: 40%;
+}
+
+.dob_type{
+	margin-left: 40%;
+	margin-top: 0%;
+
+
+	font-family: Geometria;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 45px;
+
+}
+
+/*.dob_op_text{
+	max-width: 50%;
+	margin-left: 40%;
+}*/
